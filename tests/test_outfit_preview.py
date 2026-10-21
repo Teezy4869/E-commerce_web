@@ -255,12 +255,13 @@ class OutfitPreviewHTTPTests(unittest.TestCase):
         class CloudflareAPI(BaseHTTPRequestHandler):
             payload = None
             auth = None
+            response_status = 200
             def do_POST(self):
                 CloudflareAPI.payload = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
                 CloudflareAPI.auth = self.headers.get("Authorization")
                 jpeg = (ROOT / "images" / "query_shoes.jpg").read_bytes()
                 raw = json.dumps({"success": True, "result": {"image": base64.b64encode(jpeg).decode()}}).encode()
-                self.send_response(200); self.send_header("Content-Type", "application/json")
+                self.send_response(CloudflareAPI.response_status); self.send_header("Content-Type", "application/json")
                 self.send_header("Content-Length", str(len(raw))); self.end_headers(); self.wfile.write(raw)
             def log_message(self, *_):
                 pass
@@ -275,6 +276,8 @@ class OutfitPreviewHTTPTests(unittest.TestCase):
                 self._start()
                 client = self.client(); catalog = self.catalogue(client)
                 self.assertEqual(catalog["image_mode"], "provider")
+                self.assertFalse(catalog["uses_product_photos"])
+                self.assertNotIn("local-test-token", json.dumps(catalog))
                 chosen = {category: catalog["products"][category][0]["id"] for category in catalog["products"]}
                 code, result = self.call(client, "POST", "/api/outfit/preview",
                     {"body_type": "regular", "gender": "female", "products": chosen})
@@ -284,9 +287,18 @@ class OutfitPreviewHTTPTests(unittest.TestCase):
                 self.assertIn("không dùng ảnh sản phẩm", result["notice"])
                 self.assertTrue(result["image_url"].startswith("data:image/jpeg;base64,"))
                 self.assertEqual(CloudflareAPI.auth, "Bearer local-test-token")
-                self.assertEqual(CloudflareAPI.payload["steps"], 4)
+                self.assertEqual(CloudflareAPI.payload["steps"], 8)
+                self.assertIn("Exactly ONE person", CloudflareAPI.payload["prompt"])
                 self.assertIn("no product photos are supplied", CloudflareAPI.payload["prompt"])
                 self.assertNotIn("reference_images", CloudflareAPI.payload)
+                for status, message in ((429, "hết hạn mức"), (403, "xác thực")):
+                    CloudflareAPI.response_status = status
+                    code, fallback = self.call(client, "POST", "/api/outfit/preview",
+                        {"body_type": "regular", "gender": "female", "products": chosen})
+                    self.assertEqual(code, 200, fallback)
+                    self.assertEqual(fallback["mode"], "demo")
+                    self.assertIn(message, fallback["notice"])
+                    self.assertNotIn("local-test-token", json.dumps(fallback))
         finally:
             provider.shutdown(); provider.server_close(); thread.join(timeout=5)
 

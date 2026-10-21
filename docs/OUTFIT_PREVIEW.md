@@ -4,7 +4,7 @@
 
 `/studio` shows live, in-stock shirts, trousers and shoes from `CatalogRepository`. A customer can select **zero or one** item in each category and must choose at least one item overall. The model gender is Nam or Nữ; the five preset body types are Slim, Regular, Curvy / Plus-size, Tall and Petite. This model choice is not stored on a customer profile. No personal photo is requested. The server checks product IDs, category, stock, gender and body type again when the preview is requested. Product links lead to exact color/size availability on the detail page.
 
-`application/outfit_preview_service.py` builds a prompt from actual product names and materials plus the chosen model gender and body type. A configured provider receives the catalogue images of selected products, not filenames or customer photographs. It returns a PNG/JPEG/WebP image as base64; the server checks its signature and size before returning a data URL. Generated images are not stored in SQLite. The browser shows a progress indicator without claiming a completion percentage. If the provider is missing or fails, the API explicitly returns `mode: demo`, a reason, and a matching gender/body-type sample image. The sample **does not depict the selected products**. Every result includes the warning that AI imagery cannot guarantee fit, color or garment shape.
+`application/outfit_preview_service.py` builds a prompt from actual product names and materials plus the chosen model gender and body type. Cloudflare FLUX receives text descriptions only; the other providers receive catalogue reference images. Customer photographs are not requested. The provider returns a PNG/JPEG/WebP image as base64; the server checks its signature and size before returning a data URL. Generated images are not stored in SQLite. The browser shows a progress indicator without claiming a completion percentage. If the provider is missing or fails, the API explicitly returns `mode: demo`, a reason, and a matching gender/body-type sample image. The sample **does not depict the selected products**. Every result includes the warning that AI imagery cannot guarantee fit, color or garment shape.
 
 ## Provider setup
 
@@ -22,6 +22,14 @@ Cloudflare Workers AI offers 10,000 free Neurons per day on the Workers Free pla
    ```
 
 3. Remove or leave blank any `COGU_OUTFIT_PROVIDER_URL` override, restart `python run_ui.py --no-browser`, then choose an outfit in `/studio` and click **Tạo ảnh**. A successful request returns `mode: provider`; a failed request returns `mode: demo` with its reason. The Gemini key can stay in `.env` but is unused when `COGU_OUTFIT_PROVIDER=cloudflare`.
+
+The Python backend calls Workers AI directly through its REST API; deploying a separate Worker is unnecessary. Keep `COGU_OUTFIT_PROVIDER_MODEL` and `COGU_OUTFIT_PROVIDER_API_KEY` blank to use the default FLUX model and `CLOUDFLARE_API_TOKEN`. `/api/outfit/catalog` exposes `uses_product_photos: false` for Cloudflare so the UI describes the input correctly. HTTP 401/403 produces a safe configuration notice; HTTP 429 produces a rate/quota notice. Neither provider response bodies nor tokens are exposed to customers. The private `.env` is excluded from Git.
+
+### Live verification — 21 October 2026
+
+Created the account-scoped `COGU AI Studio` token with Workers AI Read/Edit after user confirmation and configured the private local `.env`. Two live generation requests succeeded in Chrome at `http://127.0.0.1:8080/studio`. The final request used FLUX.1 schnell with eight diffusion steps and an explicit single-person composition; its generated image loaded at 1024 × 1024 with the description-based AI label. The preview now contains the full image instead of cropping it. Exact product colors and details remain approximate because no product photo is supplied to this model.
+
+Validation: `python -m unittest tests.test_outfit_preview -q` passed all six tests, including the Cloudflare request/response contract, credential rejection and rate/quota fallback. JavaScript syntax and `git diff --check` passed. No credentials were committed. Local startup remains `python run_ui.py --no-browser`.
 
 The current ChatGPT/Codex account cannot be used as a free API key for this site's live image requests. ChatGPT/Codex image tools can generate static sample assets during development; they do not grant a server-side image API quota. The existing OpenAI API mode requires separate API access and billing.
 

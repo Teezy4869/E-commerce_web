@@ -168,6 +168,7 @@ class MultimodalHTTPHandler(BaseHTTPRequestHandler):
                 "genders": self.outfit_preview.GENDERS,
                 "categories": self.outfit_preview.CATEGORIES, "products": self.outfit_preview.available_products(),
                 "image_mode": "provider" if self.outfit_preview.provider.enabled else "demo",
+                "uses_product_photos": bool(self.outfit_preview.provider.enabled and self.outfit_preview.provider.uses_references),
                 "disclaimer": self.outfit_preview.DISCLAIMER})
         if path == "/api/ai/preferences" or path == "/api/ai/recommendations":
             try:

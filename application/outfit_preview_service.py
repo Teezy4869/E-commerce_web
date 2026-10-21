@@ -7,6 +7,7 @@ import os
 import re
 import secrets
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlparse
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
@@ -14,7 +15,9 @@ from application.visual_search import image_mime
 
 
 class OutfitProviderError(RuntimeError):
-    pass
+    def __init__(self, message, code="unavailable"):
+        super().__init__(message)
+        self.code = code
 
 
 class _NoRedirect(HTTPRedirectHandler):
@@ -82,7 +85,7 @@ class OutfitImageProvider:
                                   "response_format": {"type": "image", "mime_type": "image/jpeg", "aspect_ratio": "2:3"}}).encode("utf-8")
             content_type = "application/json"
         elif self.kind == "cloudflare":
-            payload = json.dumps({"prompt": prompt[:2048], "steps": 4}).encode("utf-8")
+            payload = json.dumps({"prompt": prompt[:2048], "steps": 8}).encode("utf-8")
             content_type = "application/json"
         else:
             payload = json.dumps({"model": self.model, "prompt": prompt, "body_type": body_type,
@@ -129,6 +132,10 @@ class OutfitImageProvider:
             if claimed_mime and claimed_mime != mime:
                 raise OutfitProviderError("Image provider MIME type does not match image content.")
             return "data:%s;base64,%s" % (mime, base64.b64encode(content).decode("ascii"))
+        except HTTPError as error:
+            code = "credentials" if error.code in (401, 403) else "rate_limit" if error.code == 429 else "unavailable"
+            error.close()
+            raise OutfitProviderError("Image provider request failed.", code=code) from None
         except (OSError, ValueError, KeyError, TypeError, binascii.Error) as error:
             raise OutfitProviderError("Image generation provider is unavailable or returned an invalid image.") from error
 
@@ -202,6 +209,8 @@ class OutfitPreviewService:
                          for product in products]
         if self.provider.enabled:
             prompt = ("Create a tasteful, photorealistic full-body fashion editorial image of one adult %s model with a %s body type. "
+                      "Exactly ONE person centered in a single photograph, entire head and both shoes visible. "
+                      "The person wears ALL selected items together as ONE outfit. No collage, comparison, extra people or floating clothing. "
                       "%s "
                       "Selected items: %s. For unselected garment categories, use neutral unbranded basics and do not imply those are COGU products. Do not imply the image guarantees fit. "
                       "Neutral off-white and sage studio, clear garment details, no text, logo or watermark." %
@@ -219,8 +228,12 @@ class OutfitPreviewService:
                         "image_url": image_url, "body_type": body_type, "gender": gender, "products": product_facts,
                         "disclaimer": self.DISCLAIMER, "notice": ("Ảnh AI tạo từ tên và chất liệu sản phẩm; không dùng ảnh sản phẩm làm tham chiếu. Chi tiết có thể khác sản phẩm thật."
                         if description_only else "Ảnh được tạo bởi dịch vụ AI đã cấu hình; chi tiết có thể khác sản phẩm thật.")}
-            except OutfitProviderError:
+            except OutfitProviderError as error:
                 notice = "Dịch vụ tạo ảnh hiện không khả dụng. Đang hiển thị ảnh mẫu của dáng người; ảnh không dùng sản phẩm đã chọn."
+                if error.code == "rate_limit":
+                    notice += " Dịch vụ AI đang giới hạn lượt tạo ảnh hoặc đã hết hạn mức; vui lòng thử lại sau."
+                elif error.code == "credentials":
+                    notice += " Cấu hình xác thực dịch vụ AI cần được quản trị viên kiểm tra."
         else:
             notice = "Ảnh mẫu của dáng người; ảnh không dùng sản phẩm đã chọn. Chưa cấu hình dịch vụ tạo ảnh."
         return {"mode": "demo", "label": "DEMO · ẢNH MẪU MINH HỌA",

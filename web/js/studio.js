@@ -7,6 +7,8 @@
   const categories = ['shirt', 'trousers', 'shoes'];
   let catalogue = {};
   let busy = false;
+  let imageMode = 'demo';
+  let usesProductPhotos = false;
 
   function selected() {
     return Object.fromEntries(categories.filter(category => form.elements[category].value)
@@ -58,6 +60,8 @@
       const data = await response.json();
       if (!response.ok) throw new Error(data.message || 'Không thể tải catalogue.');
       catalogue = data.products;
+      imageMode = data.image_mode;
+      usesProductPhotos = data.uses_product_photos === true;
       for (const category of categories) {
         const select = form.elements[category];
         const title = data.categories[category];
@@ -67,7 +71,9 @@
       }
       $('#studio-disclaimer').textContent = data.disclaimer;
       status(data.image_mode === 'provider'
-        ? 'Dịch vụ tạo ảnh đã cấu hình. Chọn sản phẩm và dáng người để xem bản mô phỏng.'
+        ? (usesProductPhotos
+          ? 'AI sẵn sàng tạo ảnh từ ảnh tham chiếu sản phẩm. Chọn sản phẩm và dáng người để bắt đầu.'
+          : 'AI sẵn sàng tạo ảnh từ mô tả sản phẩm; không sử dụng ảnh sản phẩm làm tham chiếu. Chọn sản phẩm và dáng người để bắt đầu.')
         : 'DEMO: chưa cấu hình dịch vụ tạo ảnh. Studio sẽ hiển thị ảnh mẫu của dáng người, không theo sản phẩm đã chọn.');
       updateForm();
     } catch (error) { status(error.message, true); button.disabled = true; }
@@ -90,7 +96,9 @@
     $('#studio-progress').hidden = false;
     $('#studio-progress-text').textContent = 'Đang kiểm tra sản phẩm trong catalogue.';
     status('Đang chuẩn bị bản xem trước…');
-    const messages = ['Đang gửi ảnh tham chiếu sản phẩm tới dịch vụ tạo ảnh (nếu đã cấu hình).',
+    const messages = [imageMode !== 'provider' ? 'Đang chuẩn bị ảnh mẫu minh họa.'
+                      : usesProductPhotos ? 'Đang gửi ảnh tham chiếu sản phẩm tới dịch vụ tạo ảnh.'
+                      : 'Đang tạo ảnh AI từ mô tả các sản phẩm đã chọn.',
                       'Đang chờ ảnh mô phỏng. Quá trình này có thể mất khoảng một phút.'];
     let step = 0;
     const timer = setInterval(() => { $('#studio-progress-text').textContent = messages[Math.min(step++, messages.length - 1)]; }, 3500);
