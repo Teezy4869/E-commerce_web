@@ -1,0 +1,277 @@
+============================================================
+  E-COMMERCE MULTIMODAL SEARCH SYSTEM
+  Assignment 06 — Demonstration
+============================================================
+
+############################################################
+  DEMO 1: TEXT SEARCH
+  Query: "black shoes"
+############################################################
+
+  [SearchUI] Text search input: "black shoes"
+  [SearchUI] Query representation: {'type': 'text', 'query': 'black shoes'}
+  [SearchUI] Retrieved 7 candidates
+  [SearchUI] Ranking complete
+
+============================================================
+  Text Search: "black shoes"
+============================================================
+
+  Rank #1
+  Name:     Nike Running Shoes
+  Category: shoes
+  Color:    black
+  Price:    $120
+  Score:    2
+  ----------------------------------------
+
+  Rank #2
+  Name:     Adidas Running Shoes
+  Category: shoes
+  Color:    white
+  Price:    $100
+  Score:    1
+  ----------------------------------------
+
+  Rank #3
+  Name:     Black Leather Bag
+  Category: bag
+  Color:    black
+  Price:    $80
+  Score:    1
+  ----------------------------------------
+
+  Rank #4
+  Name:     Blue Sports Shoes
+  Category: shoes
+  Color:    blue
+  Price:    $75
+  Score:    1
+  ----------------------------------------
+
+  Rank #5
+  Name:     White Casual Sneakers
+  Category: shoes
+  Color:    white
+  Price:    $90
+  Score:    1
+  ----------------------------------------
+
+  Rank #6
+  Name:     Black Winter Jacket
+  Category: jacket
+  Color:    black
+  Price:    $150
+  Score:    1
+  ----------------------------------------
+
+  Rank #7
+  Name:     Green Hiking Shoes
+  Category: shoes
+  Color:    green
+  Price:    $130
+  Score:    1
+  ----------------------------------------
+
+  Total results: 7
+============================================================
+
+############################################################
+  DEMO 2: VOICE SEARCH (Simulated)
+  Audio input: "find running shoes"
+############################################################
+
+  [SearchUI] Voice search input: "find running shoes"
+  [VoiceInput] Capturing audio: "find running shoes"
+  [VoiceInput] Transcribed text: "find running shoes"
+  [SearchUI] Query representation: {'type': 'voice', 'query': 'find running shoes'}
+  [SearchUI] Retrieved 5 candidates
+  [SearchUI] Ranking complete
+
+============================================================
+  Voice Search: "find running shoes"
+============================================================
+
+  Rank #1
+  Name:     Nike Running Shoes
+  Category: shoes
+  Color:    black
+  Price:    $120
+  Score:    2
+  ----------------------------------------
+
+  Rank #2
+  Name:     Adidas Running Shoes
+  Category: shoes
+  Color:    white
+  Price:    $100
+  Score:    2
+  ----------------------------------------
+
+  Rank #3
+  Name:     Blue Sports Shoes
+  Category: shoes
+  Color:    blue
+  Price:    $75
+  Score:    1
+  ----------------------------------------
+
+  Rank #4
+  Name:     White Casual Sneakers
+  Category: shoes
+  Color:    white
+  Price:    $90
+  Score:    1
+  ----------------------------------------
+
+  Rank #5
+  Name:     Green Hiking Shoes
+  Category: shoes
+  Color:    green
+  Price:    $130
+  Score:    1
+  ----------------------------------------
+
+  Total results: 5
+============================================================
+
+############################################################
+  DEMO 3: IMAGE SEARCH
+  Query image: images/query_shoes.jpg
+############################################################
+
+  [SearchUI] Image search input: images/query_shoes.jpg
+  [ImageUpload] Processing image: images/query_shoes.jpg
+  [ImageUpload] Generated embedding: [0.88, 0.12, 0.22]
+  [SearchUI] Query representation: type=image
+  [SearchUI] Retrieved 12 candidates
+  [SearchUI] Ranking complete
+
+============================================================
+  Image Search: shoe-like image
+============================================================
+
+  Rank #1
+  Name:     Nike Running Shoes
+  Category: shoes
+  Color:    black
+  Price:    $120
+  Score:    0.9994
+  ----------------------------------------
+
+  Rank #2
+  Name:     Adidas Running Shoes
+  Category: shoes
+  Color:    white
+  Price:    $100
+  Score:    0.9985
+  ----------------------------------------
+
+  Rank #3
+  Name:     Blue Sports Shoes
+  Category: shoes
+  Color:    blue
+  Price:    $75
+  Score:    0.9943
+  ----------------------------------------
+
+  Rank #4
+  Name:     Green Hiking Shoes
+  Category: shoes
+  Color:    green
+  Price:    $130
+  Score:    0.9771
+  ----------------------------------------
+
+  Rank #5
+  Name:     White Casual Sneakers
+  Category: shoes
+  Color:    white
+  Price:    $90
+  Score:    0.9645
+  ----------------------------------------
+
+  Rank #6
+  Name:     Black Winter Jacket
+  Category: jacket
+  Color:    black
+  Price:    $150
+  Score:    0.6969
+  ----------------------------------------
+
+  Rank #7
+  Name:     Blue Denim Jacket
+  Category: jacket
+  Color:    blue
+  Price:    $110
+  Score:    0.6804
+  ----------------------------------------
+
+  Rank #8
+  Name:     Gold Classic Watch
+  Category: watch
+  Color:    gold
+  Price:    $350
+  Score:    0.448
+  ----------------------------------------
+
+  Rank #9
+  Name:     Red Canvas Bag
+  Category: bag
+  Color:    red
+  Price:    $45
+  Score:    0.4245
+  ----------------------------------------
+
+  Rank #10
+  Name:     Brown Leather Bag
+  Category: bag
+  Color:    brown
+  Price:    $95
+  Score:    0.3869
+  ----------------------------------------
+
+  Rank #11
+  Name:     Silver Digital Watch
+  Category: watch
+  Color:    silver
+  Price:    $200
+  Score:    0.373
+  ----------------------------------------
+
+  Rank #12
+  Name:     Black Leather Bag
+  Category: bag
+  Color:    black
+  Price:    $80
+  Score:    0.3653
+  ----------------------------------------
+
+  Total results: 12
+============================================================
+
+############################################################
+  DEMO 4: ORDER SEARCH
+  Order ID: "O001"
+############################################################
+
+  [SearchUI] Order search: "O001"
+
+============================================================
+  Order Information
+============================================================
+  Order ID:    O001
+  Customer:    C001
+  Date:        2026-10-01
+  Status:      Shipped
+  Total:       $150
+============================================================
+
+============================================================
+  DEMONSTRATION COMPLETE
+============================================================
+  Architecture: Presentation -> Application -> Data
+  Search modes demonstrated: Text, Voice, Image
+  Products in dataset: 12
+  Orders in dataset: 3
+============================================================

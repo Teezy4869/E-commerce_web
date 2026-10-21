@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#166534">
+  <meta name="description" content="Khám phá áo, quần, giày và phụ kiện trong bộ sưu tập COGU Fashion.">
+  <title>Cửa hàng | COGU Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/catalog.css">
+<link rel="stylesheet" href="/css/commerce.css"><link rel="stylesheet" href="/css/shopping-ai.css"></head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <div class="announcement">COGU Fashion <span aria-hidden="true">✦</span> Những lựa chọn cho phong cách mỗi ngày</div>
+  <header class="site-header"><div class="header-inner container">
+    <a class="brand" href="/" aria-label="COGU Fashion, về trang chủ"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a>
+    <button class="menu-toggle icon-button" id="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Mở menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Điều hướng chính"><a href="/">Trang chủ</a><a href="/shop" aria-current="page">Cửa hàng</a><a href="/#tim-kiem">Tìm kiếm thông minh</a><a href="/#demo-lab">Demo Lab</a><a href="/studio">AI Studio</a></nav>
+    <div class="shop-account-links"><a href="/account">Tài khoản</a><a href="/cart">Giỏ hàng</a></div>
+    <a class="header-search" href="/#tim-kiem" aria-label="Tìm kiếm sản phẩm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 4.6 4.6"/></svg><span>Tìm kiếm</span></a>
+  </div></header>
+  <main id="main">
+    <section class="shop-heading"><div class="container"><p class="kicker">COGU / THE EDIT</p><h1>Khám phá <em>bộ sưu tập.</em></h1><p>Áo, quần và giày/dép được chọn cho nhịp sống của bạn.</p></div></section>
+    <div class="container shop-layout">
+      <aside class="shop-sidebar" aria-label="Bộ lọc sản phẩm"><button class="mobile-filter-toggle" id="mobile-filter-toggle" type="button" aria-controls="filter-form" aria-expanded="false">Bộ lọc sản phẩm <span aria-hidden="true">＋</span></button><form id="filter-form"><div class="filter-top"><h2>Bộ lọc</h2><button type="button" id="clear-filters" class="inline-button">Xóa bộ lọc</button></div>
+        <label for="filter-q">Tìm trong cửa hàng</label><input id="filter-q" type="search" placeholder="Tên hoặc chất liệu..." autocomplete="off">
+        <label for="filter-category">Danh mục</label><select id="filter-category"><option value="">Tất cả danh mục</option><option value="shirt">Áo</option><option value="trousers">Quần</option><option value="shoes">Giày/dép</option></select>
+        <label for="filter-color">Màu sắc</label><select id="filter-color"><option value="">Tất cả màu</option></select>
+        <label for="filter-size">Kích cỡ</label><select id="filter-size"><option value="">Tất cả kích cỡ</option></select>
+        <label for="filter-min">Giá từ (VND)</label><input id="filter-min" type="number" min="0" step="1000" inputmode="numeric" placeholder="0">
+        <label for="filter-max">Giá đến (VND)</label><input id="filter-max" type="number" min="0" step="1000" inputmode="numeric" placeholder="Không giới hạn">
+        <button class="button button-green filter-submit" type="submit">Áp dụng bộ lọc <span aria-hidden="true">→</span></button>
+      </form></aside>
+      <section class="shop-results" aria-labelledby="shop-results-title"><div class="shop-toolbar"><div><p class="kicker">THE COGU COLLECTION</p><h2 id="shop-results-title">Tất cả sản phẩm</h2><p id="shop-count" role="status" aria-live="polite">Đang tải sản phẩm…</p></div><label for="shop-sort">Sắp xếp <select id="shop-sort"><option value="newest">Mới nhất</option><option value="popular">Nổi bật</option><option value="price_asc">Giá tăng dần</option><option value="price_desc">Giá giảm dần</option><option value="name">Tên A–Z</option></select></label></div><div class="product-grid shop-grid" id="shop-grid" aria-busy="true"><p class="loading-copy">Đang tải sản phẩm…</p></div><nav class="pagination" id="pagination" aria-label="Phân trang sản phẩm"></nav></section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a><p>Khám phá món đồ hợp gu theo cách của bạn.</p></div><div><h3>Khám phá</h3><a href="/">Trang chủ</a><a href="/shop">Cửa hàng</a></div><div><h3>Trải nghiệm</h3><a href="/account">Tài khoản</a><a href="/cart">Giỏ hàng</a></div><div><h3>Về bản demo</h3><p>Giá và tồn kho là dữ liệu minh họa. Đơn COD được lưu trong hệ thống; tiền chưa được thu trực tuyến.</p></div></div><div class="container footer-bottom"><span>© 2026 COGU Fashion</span><span>Kiến trúc Python ba lớp</span></div></footer>
+  <script src="/js/catalog-shared.js" defer></script><script src="/js/shop.js" defer></script>
+<script src="/js/shopping-ai.js" defer></script></body></html>

@@ -1,0 +1,49 @@
+
+=== TEXT SEARCH TESTS ===
+
+  PASS: TS-01 keyword match
+  PASS: TS-02 multi-word query
+  PASS: TS-03 no match / low relevance
+  PASS: text query representation
+  PASS: TS-05 invalid query handling
+
+  All text search tests passed!
+
+
+=== VOICE SEARCH TESTS ===
+
+  PASS: VS-01 simulated transcription
+  PASS: VS-02 voice query representation
+  PASS: VS-03 voice retrieval pipeline
+  [VoiceInput] Capturing audio: "find black shoes"
+  [VoiceInput] Transcribed text: "find black shoes"
+  PASS: VS-04 VoiceInput component integration
+
+  All voice search tests passed!
+
+
+=== IMAGE SEARCH TESTS ===
+
+  PASS: IS-01 similar vector match
+  PASS: IS-02 multiple candidates in order
+  PASS: IS-03 zero-vector safety
+  PASS: image query representation
+  PASS: ImageService embedding creation
+  [ImageUpload] Processing image: images/query_shoes.jpg
+  [ImageUpload] Generated embedding: [0.88, 0.12, 0.22]
+  PASS: IS-06 ImageUpload component integration
+  PASS: IS-07 invalid image inputs
+
+  All image search tests passed!
+
+
+=== RANKING TESTS ===
+
+  PASS: RK-01 descending score order
+  PASS: RK-02 best candidate first
+  PASS: RK-03 stable result structure
+  PASS: empty candidates
+  PASS: float score rounding
+
+  All ranking tests passed!
+

@@ -1,0 +1,2 @@
+.studio-genders .studio-body-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.studio-genders .studio-body-grid span{text-align:center;font-size:.84rem}

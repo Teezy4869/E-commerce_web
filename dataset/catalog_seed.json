@@ -1,0 +1,2089 @@
+[
+  {
+    "id": 1,
+    "slug": "giay-chay-bo-nike-den",
+    "name_vi": "Giày chạy bộ Nike đen",
+    "description_vi": "Giày thể thao tông đen, phù hợp vận động và nhịp sống mỗi ngày.",
+    "category": "shoes",
+    "material": "Vải mesh, đế cao su",
+    "price_vnd": 1290000,
+    "image": "images/store-product-01.webp",
+    "is_new": false,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/store-product-01.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": 101,
+        "sku": "COGU-001-01",
+        "color": "Đen",
+        "size": "38",
+        "stock": 2
+      },
+      {
+        "id": 102,
+        "sku": "COGU-001-02",
+        "color": "Đen",
+        "size": "39",
+        "stock": 2
+      },
+      {
+        "id": 103,
+        "sku": "COGU-001-03",
+        "color": "Đen",
+        "size": "40",
+        "stock": 2
+      },
+      {
+        "id": 104,
+        "sku": "COGU-001-04",
+        "color": "Đen",
+        "size": "41",
+        "stock": 2
+      },
+      {
+        "id": 105,
+        "sku": "COGU-001-05",
+        "color": "Đen",
+        "size": "42",
+        "stock": 1
+      },
+      {
+        "id": 106,
+        "sku": "COGU-001-06",
+        "color": "Đen",
+        "size": "43",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "giay-chay-bo-adidas-trang",
+    "name_vi": "Giày chạy bộ Adidas trắng",
+    "description_vi": "Thiết kế trắng tối giản cho những buổi chạy và dạo phố.",
+    "category": "shoes",
+    "material": "Vải mesh, đế cao su",
+    "price_vnd": 1190000,
+    "image": "images/store-product-02.webp",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Trắng",
+        "image": "images/store-product-02.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": 201,
+        "sku": "COGU-002-01",
+        "color": "Trắng",
+        "size": "38",
+        "stock": 3
+      },
+      {
+        "id": 202,
+        "sku": "COGU-002-02",
+        "color": "Trắng",
+        "size": "39",
+        "stock": 3
+      },
+      {
+        "id": 203,
+        "sku": "COGU-002-03",
+        "color": "Trắng",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 204,
+        "sku": "COGU-002-04",
+        "color": "Trắng",
+        "size": "41",
+        "stock": 2
+      },
+      {
+        "id": 205,
+        "sku": "COGU-002-05",
+        "color": "Trắng",
+        "size": "42",
+        "stock": 2
+      },
+      {
+        "id": 206,
+        "sku": "COGU-002-06",
+        "color": "Trắng",
+        "size": "43",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "giay-the-thao-xanh",
+    "name_vi": "Giày thể thao xanh dương",
+    "description_vi": "Điểm nhấn xanh năng động cho phong cách thể thao.",
+    "category": "shoes",
+    "material": "Vải mesh, đế cao su",
+    "price_vnd": 990000,
+    "image": "images/store-product-04.webp",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh dương",
+        "image": "images/store-product-04.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": 401,
+        "sku": "COGU-004-01",
+        "color": "Xanh dương",
+        "size": "38",
+        "stock": 2
+      },
+      {
+        "id": 402,
+        "sku": "COGU-004-02",
+        "color": "Xanh dương",
+        "size": "39",
+        "stock": 2
+      },
+      {
+        "id": 403,
+        "sku": "COGU-004-03",
+        "color": "Xanh dương",
+        "size": "40",
+        "stock": 2
+      },
+      {
+        "id": 404,
+        "sku": "COGU-004-04",
+        "color": "Xanh dương",
+        "size": "41",
+        "stock": 2
+      },
+      {
+        "id": 405,
+        "sku": "COGU-004-05",
+        "color": "Xanh dương",
+        "size": "42",
+        "stock": 2
+      },
+      {
+        "id": 406,
+        "sku": "COGU-004-06",
+        "color": "Xanh dương",
+        "size": "43",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "giay-sneaker-trang",
+    "name_vi": "Giày sneakers trắng",
+    "description_vi": "Đôi sneakers trắng linh hoạt, dễ kết hợp nhiều trang phục.",
+    "category": "shoes",
+    "material": "Da tổng hợp, đế cao su",
+    "price_vnd": 1090000,
+    "image": "images/store-product-06.webp",
+    "is_new": false,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Trắng",
+        "image": "images/store-product-06.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": 601,
+        "sku": "COGU-006-01",
+        "color": "Trắng",
+        "size": "38",
+        "stock": 3
+      },
+      {
+        "id": 602,
+        "sku": "COGU-006-02",
+        "color": "Trắng",
+        "size": "39",
+        "stock": 3
+      },
+      {
+        "id": 603,
+        "sku": "COGU-006-03",
+        "color": "Trắng",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 604,
+        "sku": "COGU-006-04",
+        "color": "Trắng",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 605,
+        "sku": "COGU-006-05",
+        "color": "Trắng",
+        "size": "42",
+        "stock": 3
+      },
+      {
+        "id": 606,
+        "sku": "COGU-006-06",
+        "color": "Trắng",
+        "size": "43",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "giay-da-ngoai-xanh-reu",
+    "name_vi": "Giày dã ngoại xanh rêu",
+    "description_vi": "Giày dã ngoại xanh rêu cho những chuyến đi ngoài trời.",
+    "category": "shoes",
+    "material": "Da tổng hợp, đế cao su",
+    "price_vnd": 1490000,
+    "image": "images/store-product-11.webp",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh rêu",
+        "image": "images/store-product-11.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1101,
+        "sku": "COGU-011-01",
+        "color": "Xanh rêu",
+        "size": "38",
+        "stock": 2
+      },
+      {
+        "id": 1102,
+        "sku": "COGU-011-02",
+        "color": "Xanh rêu",
+        "size": "39",
+        "stock": 2
+      },
+      {
+        "id": 1103,
+        "sku": "COGU-011-03",
+        "color": "Xanh rêu",
+        "size": "40",
+        "stock": 2
+      },
+      {
+        "id": 1104,
+        "sku": "COGU-011-04",
+        "color": "Xanh rêu",
+        "size": "41",
+        "stock": 1
+      },
+      {
+        "id": 1105,
+        "sku": "COGU-011-05",
+        "color": "Xanh rêu",
+        "size": "42",
+        "stock": 1
+      },
+      {
+        "id": 1106,
+        "sku": "COGU-011-06",
+        "color": "Xanh rêu",
+        "size": "43",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "ao-so-mi-cotton-trang-nga",
+    "name_vi": "Áo sơ mi cotton trắng ngà",
+    "description_vi": "Sơ mi cotton đứng phom, cổ nhọn và túi ngực tinh giản.",
+    "category": "shirt",
+    "material": "100% cotton",
+    "price_vnd": 649000,
+    "image": "images/catalog-13.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Trắng ngà",
+        "image": "images/catalog-13.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1301,
+        "sku": "COGU-013-01",
+        "color": "Trắng ngà",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "id": 1302,
+        "sku": "COGU-013-02",
+        "color": "Trắng ngà",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "id": 1303,
+        "sku": "COGU-013-03",
+        "color": "Trắng ngà",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 1304,
+        "sku": "COGU-013-04",
+        "color": "Trắng ngà",
+        "size": "XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "ao-so-mi-linen-xanh-sage",
+    "name_vi": "Áo sơ mi linen xanh sage",
+    "description_vi": "Chất linen thoáng nhẹ, sắc xanh dịu cho ngày nắng.",
+    "category": "shirt",
+    "material": "100% linen",
+    "price_vnd": 729000,
+    "image": "images/catalog-14.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh sage",
+        "image": "images/catalog-14.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1401,
+        "sku": "COGU-014-01",
+        "color": "Xanh sage",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "id": 1402,
+        "sku": "COGU-014-02",
+        "color": "Xanh sage",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "id": 1403,
+        "sku": "COGU-014-03",
+        "color": "Xanh sage",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 1404,
+        "sku": "COGU-014-04",
+        "color": "Xanh sage",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "quan-tay-xam-than",
+    "name_vi": "Quần tây xám than",
+    "description_vi": "Quần tây ống suông với đường ly gọn gàng.",
+    "category": "trousers",
+    "material": "Polyester pha viscose",
+    "price_vnd": 899000,
+    "image": "images/catalog-15.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xám than",
+        "image": "images/catalog-15.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1501,
+        "sku": "COGU-015-01",
+        "color": "Xám than",
+        "size": "28",
+        "stock": 7
+      },
+      {
+        "id": 1502,
+        "sku": "COGU-015-02",
+        "color": "Xám than",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 1503,
+        "sku": "COGU-015-03",
+        "color": "Xám than",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 1504,
+        "sku": "COGU-015-04",
+        "color": "Xám than",
+        "size": "34",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "quan-ong-rong-kem",
+    "name_vi": "Quần ống rộng màu kem",
+    "description_vi": "Phom ống rộng thoải mái, bề mặt vải mềm và rủ.",
+    "category": "trousers",
+    "material": "Linen pha cotton",
+    "price_vnd": 849000,
+    "image": "images/catalog-16.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Kem",
+        "image": "images/catalog-16.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1601,
+        "sku": "COGU-016-01",
+        "color": "Kem",
+        "size": "28",
+        "stock": 7
+      },
+      {
+        "id": 1602,
+        "sku": "COGU-016-02",
+        "color": "Kem",
+        "size": "30",
+        "stock": 7
+      },
+      {
+        "id": 1603,
+        "sku": "COGU-016-03",
+        "color": "Kem",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 1604,
+        "sku": "COGU-016-04",
+        "color": "Kem",
+        "size": "34",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "ao-thun-oversize-essential",
+    "name_vi": "Áo thun oversize Essential",
+    "description_vi": "Áo thun vai rơi bằng cotton dày vừa, có hai gam màu dễ phối.",
+    "category": "shirt",
+    "material": "100% cotton",
+    "price_vnd": 399000,
+    "image": "images/catalog-17.png",
+    "is_new": false,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Xanh rừng",
+        "image": "images/catalog-17.png"
+      },
+      {
+        "color": "Trắng ngà",
+        "image": "images/catalog-17-ivory.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1701,
+        "sku": "COGU-017-01",
+        "color": "Xanh rừng",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "id": 1702,
+        "sku": "COGU-017-02",
+        "color": "Xanh rừng",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "id": 1703,
+        "sku": "COGU-017-03",
+        "color": "Xanh rừng",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "id": 1704,
+        "sku": "COGU-017-04",
+        "color": "Xanh rừng",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "id": 1705,
+        "sku": "COGU-017-05",
+        "color": "Trắng ngà",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "id": 1706,
+        "sku": "COGU-017-06",
+        "color": "Trắng ngà",
+        "size": "M",
+        "stock": 14
+      },
+      {
+        "id": 1707,
+        "sku": "COGU-017-07",
+        "color": "Trắng ngà",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 1708,
+        "sku": "COGU-017-08",
+        "color": "Trắng ngà",
+        "size": "XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "ao-polo-det-den",
+    "name_vi": "Áo polo dệt đen",
+    "description_vi": "Polo cổ bẻ dệt kim cho vẻ chỉn chu mà vẫn thoải mái.",
+    "category": "shirt",
+    "material": "Cotton dệt kim",
+    "price_vnd": 579000,
+    "image": "images/catalog-18.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/catalog-18.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1801,
+        "sku": "COGU-018-01",
+        "color": "Đen",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "id": 1802,
+        "sku": "COGU-018-02",
+        "color": "Đen",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "id": 1803,
+        "sku": "COGU-018-03",
+        "color": "Đen",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": 1804,
+        "sku": "COGU-018-04",
+        "color": "Đen",
+        "size": "XL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "ao-so-mi-oxford-xanh",
+    "name_vi": "Áo sơ mi Oxford xanh nhạt",
+    "description_vi": "Sơ mi Oxford cổ cài nút, dễ mặc đi làm và cuối tuần.",
+    "category": "shirt",
+    "material": "Cotton Oxford",
+    "price_vnd": 699000,
+    "image": "images/catalog-19.png",
+    "is_new": false,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Xanh nhạt",
+        "image": "images/catalog-19.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 1901,
+        "sku": "COGU-019-01",
+        "color": "Xanh nhạt",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "id": 1902,
+        "sku": "COGU-019-02",
+        "color": "Xanh nhạt",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "id": 1903,
+        "sku": "COGU-019-03",
+        "color": "Xanh nhạt",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": 1904,
+        "sku": "COGU-019-04",
+        "color": "Xanh nhạt",
+        "size": "XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "ao-so-mi-linen-cat",
+    "name_vi": "Áo sơ mi linen màu cát",
+    "description_vi": "Sơ mi cổ mở ngắn tay, sắc cát ấm và thoáng mát.",
+    "category": "shirt",
+    "material": "100% linen",
+    "price_vnd": 649000,
+    "image": "images/catalog-20.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Cát",
+        "image": "images/catalog-20.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2001,
+        "sku": "COGU-020-01",
+        "color": "Cát",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "id": 2002,
+        "sku": "COGU-020-02",
+        "color": "Cát",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "id": 2003,
+        "sku": "COGU-020-03",
+        "color": "Cát",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": 2004,
+        "sku": "COGU-020-04",
+        "color": "Cát",
+        "size": "XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "quan-jeans-ong-dung-indigo",
+    "name_vi": "Quần jeans ống đứng indigo",
+    "description_vi": "Denim indigo ống đứng, thiết kế cổ điển dễ phối.",
+    "category": "trousers",
+    "material": "Denim cotton",
+    "price_vnd": 899000,
+    "image": "images/catalog-21.png",
+    "is_new": false,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Indigo",
+        "image": "images/catalog-21.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2101,
+        "sku": "COGU-021-01",
+        "color": "Indigo",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 2102,
+        "sku": "COGU-021-02",
+        "color": "Indigo",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 2103,
+        "sku": "COGU-021-03",
+        "color": "Indigo",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "id": 2104,
+        "sku": "COGU-021-04",
+        "color": "Indigo",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "quan-cargo-xanh-olive",
+    "name_vi": "Quần cargo xanh olive",
+    "description_vi": "Quần cargo nhiều túi với độ bền cho nhịp sống năng động.",
+    "category": "trousers",
+    "material": "Cotton twill",
+    "price_vnd": 929000,
+    "image": "images/catalog-22.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh olive",
+        "image": "images/catalog-22.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2201,
+        "sku": "COGU-022-01",
+        "color": "Xanh olive",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 2202,
+        "sku": "COGU-022-02",
+        "color": "Xanh olive",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 2203,
+        "sku": "COGU-022-03",
+        "color": "Xanh olive",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 2204,
+        "sku": "COGU-022-04",
+        "color": "Xanh olive",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "quan-chino-nau-socola",
+    "name_vi": "Quần chino nâu socola",
+    "description_vi": "Chino ống thoải mái, sắc nâu trầm linh hoạt.",
+    "category": "trousers",
+    "material": "Cotton twill",
+    "price_vnd": 799000,
+    "image": "images/catalog-23.png",
+    "is_new": false,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Nâu socola",
+        "image": "images/catalog-23.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2301,
+        "sku": "COGU-023-01",
+        "color": "Nâu socola",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 2302,
+        "sku": "COGU-023-02",
+        "color": "Nâu socola",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 2303,
+        "sku": "COGU-023-03",
+        "color": "Nâu socola",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 2304,
+        "sku": "COGU-023-04",
+        "color": "Nâu socola",
+        "size": "34",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "quan-xep-ly-den",
+    "name_vi": "Quần xếp ly đen",
+    "description_vi": "Đường xếp ly sắc nét trên phom quần suông hiện đại.",
+    "category": "trousers",
+    "material": "Polyester pha viscose",
+    "price_vnd": 949000,
+    "image": "images/catalog-24.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/catalog-24.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2401,
+        "sku": "COGU-024-01",
+        "color": "Đen",
+        "size": "28",
+        "stock": 7
+      },
+      {
+        "id": 2402,
+        "sku": "COGU-024-02",
+        "color": "Đen",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 2403,
+        "sku": "COGU-024-03",
+        "color": "Đen",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 2404,
+        "sku": "COGU-024-04",
+        "color": "Đen",
+        "size": "34",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "quan-chino-be",
+    "name_vi": "Quần chino màu be",
+    "description_vi": "Chino dáng côn vừa, tông be nhẹ cho nhiều dịp.",
+    "category": "trousers",
+    "material": "Cotton twill",
+    "price_vnd": 779000,
+    "image": "images/catalog-25.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Be",
+        "image": "images/catalog-25.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2501,
+        "sku": "COGU-025-01",
+        "color": "Be",
+        "size": "28",
+        "stock": 7
+      },
+      {
+        "id": 2502,
+        "sku": "COGU-025-02",
+        "color": "Be",
+        "size": "30",
+        "stock": 7
+      },
+      {
+        "id": 2503,
+        "sku": "COGU-025-03",
+        "color": "Be",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 2504,
+        "sku": "COGU-025-04",
+        "color": "Be",
+        "size": "34",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "giay-sneaker-da-trang",
+    "name_vi": "Giày sneaker da trắng",
+    "description_vi": "Sneaker trắng tối giản với đế êm cho những ngày di chuyển.",
+    "category": "shoes",
+    "material": "Da tổng hợp, đế cao su",
+    "price_vnd": 1290000,
+    "image": "images/catalog-26.png",
+    "is_new": true,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Trắng",
+        "image": "images/catalog-26.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2601,
+        "sku": "COGU-026-01",
+        "color": "Trắng",
+        "size": "38",
+        "stock": 5
+      },
+      {
+        "id": 2602,
+        "sku": "COGU-026-02",
+        "color": "Trắng",
+        "size": "39",
+        "stock": 5
+      },
+      {
+        "id": 2603,
+        "sku": "COGU-026-03",
+        "color": "Trắng",
+        "size": "40",
+        "stock": 5
+      },
+      {
+        "id": 2604,
+        "sku": "COGU-026-04",
+        "color": "Trắng",
+        "size": "41",
+        "stock": 4
+      },
+      {
+        "id": 2605,
+        "sku": "COGU-026-05",
+        "color": "Trắng",
+        "size": "42",
+        "stock": 4
+      },
+      {
+        "id": 2606,
+        "sku": "COGU-026-06",
+        "color": "Trắng",
+        "size": "43",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "giay-loafer-da-nau",
+    "name_vi": "Giày loafer da nâu",
+    "description_vi": "Loafer da nâu thanh lịch, đường may tinh gọn.",
+    "category": "shoes",
+    "material": "Da bò, đế cao su",
+    "price_vnd": 1590000,
+    "image": "images/catalog-27.png",
+    "is_new": true,
+    "is_bestseller": true,
+    "images": [
+      {
+        "color": "Nâu",
+        "image": "images/catalog-27.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2701,
+        "sku": "COGU-027-01",
+        "color": "Nâu",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 2702,
+        "sku": "COGU-027-02",
+        "color": "Nâu",
+        "size": "39",
+        "stock": 3
+      },
+      {
+        "id": 2703,
+        "sku": "COGU-027-03",
+        "color": "Nâu",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 2704,
+        "sku": "COGU-027-04",
+        "color": "Nâu",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 2705,
+        "sku": "COGU-027-05",
+        "color": "Nâu",
+        "size": "42",
+        "stock": 3
+      },
+      {
+        "id": 2706,
+        "sku": "COGU-027-06",
+        "color": "Nâu",
+        "size": "43",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "giay-boot-da-den",
+    "name_vi": "Giày boot da đen",
+    "description_vi": "Boot cổ thấp da đen tạo điểm nhấn vững chãi.",
+    "category": "shoes",
+    "material": "Da bò, đế cao su",
+    "price_vnd": 1790000,
+    "image": "images/catalog-28.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/catalog-28.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2801,
+        "sku": "COGU-028-01",
+        "color": "Đen",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 2802,
+        "sku": "COGU-028-02",
+        "color": "Đen",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 2803,
+        "sku": "COGU-028-03",
+        "color": "Đen",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 2804,
+        "sku": "COGU-028-04",
+        "color": "Đen",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 2805,
+        "sku": "COGU-028-05",
+        "color": "Đen",
+        "size": "42",
+        "stock": 3
+      },
+      {
+        "id": 2806,
+        "sku": "COGU-028-06",
+        "color": "Đen",
+        "size": "43",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "giay-canvas-xanh-sage",
+    "name_vi": "Giày canvas xanh sage",
+    "description_vi": "Canvas thấp cổ xanh sage cho trang phục thường ngày.",
+    "category": "shoes",
+    "material": "Canvas cotton, đế cao su",
+    "price_vnd": 890000,
+    "image": "images/catalog-29.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh sage",
+        "image": "images/catalog-29.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 2901,
+        "sku": "COGU-029-01",
+        "color": "Xanh sage",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 2902,
+        "sku": "COGU-029-02",
+        "color": "Xanh sage",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 2903,
+        "sku": "COGU-029-03",
+        "color": "Xanh sage",
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "id": 2904,
+        "sku": "COGU-029-04",
+        "color": "Xanh sage",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 2905,
+        "sku": "COGU-029-05",
+        "color": "Xanh sage",
+        "size": "42",
+        "stock": 3
+      },
+      {
+        "id": 2906,
+        "sku": "COGU-029-06",
+        "color": "Xanh sage",
+        "size": "43",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "giay-derby-da-lon-cat",
+    "name_vi": "Giày derby da lộn màu cát",
+    "description_vi": "Derby da lộn màu cát với phom gọn và mềm.",
+    "category": "shoes",
+    "material": "Da lộn, đế cao su",
+    "price_vnd": 1690000,
+    "image": "images/catalog-30.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Cát",
+        "image": "images/catalog-30.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3001,
+        "sku": "COGU-030-01",
+        "color": "Cát",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 3002,
+        "sku": "COGU-030-02",
+        "color": "Cát",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 3003,
+        "sku": "COGU-030-03",
+        "color": "Cát",
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "id": 3004,
+        "sku": "COGU-030-04",
+        "color": "Cát",
+        "size": "41",
+        "stock": 4
+      },
+      {
+        "id": 3005,
+        "sku": "COGU-030-05",
+        "color": "Cát",
+        "size": "42",
+        "stock": 3
+      },
+      {
+        "id": 3006,
+        "sku": "COGU-030-06",
+        "color": "Cát",
+        "size": "43",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "ao-thun-co-tron-xanh-rung",
+    "name_vi": "Áo thun cổ tròn xanh rừng",
+    "description_vi": "Áo thun cotton mềm với cổ tròn gọn và sắc xanh rừng dễ phối.",
+    "category": "shirt",
+    "material": "100% cotton",
+    "price_vnd": 369000,
+    "image": "images/catalog-31.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh rừng",
+        "image": "images/catalog-31.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3101,
+        "sku": "COGU-031-01",
+        "color": "Xanh rừng",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "id": 3102,
+        "sku": "COGU-031-02",
+        "color": "Xanh rừng",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "id": 3103,
+        "sku": "COGU-031-03",
+        "color": "Xanh rừng",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 3104,
+        "sku": "COGU-031-04",
+        "color": "Xanh rừng",
+        "size": "XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "ao-polo-pique-kem",
+    "name_vi": "Áo polo piqué màu kem",
+    "description_vi": "Polo piqué thoáng nhẹ, cổ bẻ tối giản cho ngày thường.",
+    "category": "shirt",
+    "material": "Cotton piqué",
+    "price_vnd": 619000,
+    "image": "images/catalog-32.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Kem",
+        "image": "images/catalog-32.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3201,
+        "sku": "COGU-032-01",
+        "color": "Kem",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "id": 3202,
+        "sku": "COGU-032-02",
+        "color": "Kem",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "id": 3203,
+        "sku": "COGU-032-03",
+        "color": "Kem",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 3204,
+        "sku": "COGU-032-04",
+        "color": "Kem",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "ao-so-mi-ke-soc-xanh-trang",
+    "name_vi": "Áo sơ mi kẻ sọc xanh trắng",
+    "description_vi": "Sơ mi tay dài sọc dọc thanh thoát, chất cotton thoáng.",
+    "category": "shirt",
+    "material": "100% cotton",
+    "price_vnd": 759000,
+    "image": "images/catalog-33.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh trắng",
+        "image": "images/catalog-33.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3301,
+        "sku": "COGU-033-01",
+        "color": "Xanh trắng",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "id": 3302,
+        "sku": "COGU-033-02",
+        "color": "Xanh trắng",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "id": 3303,
+        "sku": "COGU-033-03",
+        "color": "Xanh trắng",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 3304,
+        "sku": "COGU-033-04",
+        "color": "Xanh trắng",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "ao-blouse-linen-tay-bong-kem",
+    "name_vi": "Áo blouse linen tay bồng màu kem",
+    "description_vi": "Blouse tay bồng nhẹ với dáng thoải mái và sắc kem dịu.",
+    "category": "shirt",
+    "material": "Linen pha cotton",
+    "price_vnd": 689000,
+    "image": "images/catalog-34.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Kem",
+        "image": "images/catalog-34.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3401,
+        "sku": "COGU-034-01",
+        "color": "Kem",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "id": 3402,
+        "sku": "COGU-034-02",
+        "color": "Kem",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "id": 3403,
+        "sku": "COGU-034-03",
+        "color": "Kem",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "id": 3404,
+        "sku": "COGU-034-04",
+        "color": "Kem",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "ao-henley-waffle-nau-cacao",
+    "name_vi": "Áo henley waffle nâu cacao",
+    "description_vi": "Henley tay dài dệt waffle, cổ cài nút và bề mặt vải giàu kết cấu.",
+    "category": "shirt",
+    "material": "Cotton waffle",
+    "price_vnd": 659000,
+    "image": "images/catalog-35.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Nâu cacao",
+        "image": "images/catalog-35.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3501,
+        "sku": "COGU-035-01",
+        "color": "Nâu cacao",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "id": 3502,
+        "sku": "COGU-035-02",
+        "color": "Nâu cacao",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "id": 3503,
+        "sku": "COGU-035-03",
+        "color": "Nâu cacao",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "id": 3504,
+        "sku": "COGU-035-04",
+        "color": "Nâu cacao",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "quan-jeans-ong-rong-xanh-nhat",
+    "name_vi": "Quần jeans ống rộng xanh nhạt",
+    "description_vi": "Jeans xanh nhạt ống rộng thoải mái với đường may cổ điển.",
+    "category": "trousers",
+    "material": "Denim cotton",
+    "price_vnd": 959000,
+    "image": "images/catalog-36.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh nhạt",
+        "image": "images/catalog-36.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3601,
+        "sku": "COGU-036-01",
+        "color": "Xanh nhạt",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "id": 3602,
+        "sku": "COGU-036-02",
+        "color": "Xanh nhạt",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "id": 3603,
+        "sku": "COGU-036-03",
+        "color": "Xanh nhạt",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "id": 3604,
+        "sku": "COGU-036-04",
+        "color": "Xanh nhạt",
+        "size": "34",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "quan-jogger-cotton-xam-nhat",
+    "name_vi": "Quần jogger cotton xám nhạt",
+    "description_vi": "Jogger lưng thun và bo gấu mềm, hợp nhịp sống năng động.",
+    "category": "trousers",
+    "material": "Cotton pha polyester",
+    "price_vnd": 699000,
+    "image": "images/catalog-37.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xám nhạt",
+        "image": "images/catalog-37.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3701,
+        "sku": "COGU-037-01",
+        "color": "Xám nhạt",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "id": 3702,
+        "sku": "COGU-037-02",
+        "color": "Xám nhạt",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "id": 3703,
+        "sku": "COGU-037-03",
+        "color": "Xám nhạt",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "id": 3704,
+        "sku": "COGU-037-04",
+        "color": "Xám nhạt",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "quan-tay-ong-suong-xanh-navy",
+    "name_vi": "Quần tây ống suông xanh navy",
+    "description_vi": "Quần tây ly trước, phom suông chỉn chu và màu navy dễ phối.",
+    "category": "trousers",
+    "material": "Polyester pha viscose",
+    "price_vnd": 979000,
+    "image": "images/catalog-38.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh navy",
+        "image": "images/catalog-38.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3801,
+        "sku": "COGU-038-01",
+        "color": "Xanh navy",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 3802,
+        "sku": "COGU-038-02",
+        "color": "Xanh navy",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "id": 3803,
+        "sku": "COGU-038-03",
+        "color": "Xanh navy",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "id": 3804,
+        "sku": "COGU-038-04",
+        "color": "Xanh navy",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "quan-culottes-linen-den",
+    "name_vi": "Quần culottes linen đen",
+    "description_vi": "Culottes ống rộng lửng bằng linen thoáng mát cho ngày nắng.",
+    "category": "trousers",
+    "material": "100% linen",
+    "price_vnd": 829000,
+    "image": "images/catalog-39.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/catalog-39.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 3901,
+        "sku": "COGU-039-01",
+        "color": "Đen",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 3902,
+        "sku": "COGU-039-02",
+        "color": "Đen",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 3903,
+        "sku": "COGU-039-03",
+        "color": "Đen",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "id": 3904,
+        "sku": "COGU-039-04",
+        "color": "Đen",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "quan-chino-ong-dung-xanh-reu",
+    "name_vi": "Quần chino ống đứng xanh rêu",
+    "description_vi": "Chino ống đứng bằng cotton twill, tông rêu trầm dễ phối.",
+    "category": "trousers",
+    "material": "Cotton twill",
+    "price_vnd": 839000,
+    "image": "images/catalog-40.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xanh rêu",
+        "image": "images/catalog-40.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4001,
+        "sku": "COGU-040-01",
+        "color": "Xanh rêu",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "id": 4002,
+        "sku": "COGU-040-02",
+        "color": "Xanh rêu",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "id": 4003,
+        "sku": "COGU-040-03",
+        "color": "Xanh rêu",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "id": 4004,
+        "sku": "COGU-040-04",
+        "color": "Xanh rêu",
+        "size": "34",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "giay-sneaker-retro-be-xanh",
+    "name_vi": "Giày sneaker retro be xanh",
+    "description_vi": "Sneaker dáng retro phối be và xanh sage với đế êm.",
+    "category": "shoes",
+    "material": "Da lộn pha vải, đế cao su",
+    "price_vnd": 1390000,
+    "image": "images/catalog-41.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Be xanh",
+        "image": "images/catalog-41.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4101,
+        "sku": "COGU-041-01",
+        "color": "Be xanh",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 4102,
+        "sku": "COGU-041-02",
+        "color": "Be xanh",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 4103,
+        "sku": "COGU-041-03",
+        "color": "Be xanh",
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "id": 4104,
+        "sku": "COGU-041-04",
+        "color": "Be xanh",
+        "size": "41",
+        "stock": 4
+      },
+      {
+        "id": 4105,
+        "sku": "COGU-041-05",
+        "color": "Be xanh",
+        "size": "42",
+        "stock": 4
+      },
+      {
+        "id": 4106,
+        "sku": "COGU-041-06",
+        "color": "Be xanh",
+        "size": "43",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "giay-mary-jane-da-den",
+    "name_vi": "Giày Mary Jane da đen",
+    "description_vi": "Mary Jane quai mảnh, đế thấp gọn và bề mặt da mềm.",
+    "category": "shoes",
+    "material": "Da tổng hợp, đế cao su",
+    "price_vnd": 1190000,
+    "image": "images/catalog-42.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Đen",
+        "image": "images/catalog-42.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4201,
+        "sku": "COGU-042-01",
+        "color": "Đen",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "id": 4202,
+        "sku": "COGU-042-02",
+        "color": "Đen",
+        "size": "37",
+        "stock": 4
+      },
+      {
+        "id": 4203,
+        "sku": "COGU-042-03",
+        "color": "Đen",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 4204,
+        "sku": "COGU-042-04",
+        "color": "Đen",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 4205,
+        "sku": "COGU-042-05",
+        "color": "Đen",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 4206,
+        "sku": "COGU-042-06",
+        "color": "Đen",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 4207,
+        "sku": "COGU-042-07",
+        "color": "Đen",
+        "size": "42",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "dep-quai-ngang-da-nau",
+    "name_vi": "Dép quai ngang da nâu",
+    "description_vi": "Dép quai ngang da nâu tối giản, đế mềm cho ngày thư giãn.",
+    "category": "shoes",
+    "material": "Da bò, đế cao su",
+    "price_vnd": 790000,
+    "image": "images/catalog-43.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Nâu",
+        "image": "images/catalog-43.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4301,
+        "sku": "COGU-043-01",
+        "color": "Nâu",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "id": 4302,
+        "sku": "COGU-043-02",
+        "color": "Nâu",
+        "size": "37",
+        "stock": 4
+      },
+      {
+        "id": 4303,
+        "sku": "COGU-043-03",
+        "color": "Nâu",
+        "size": "38",
+        "stock": 4
+      },
+      {
+        "id": 4304,
+        "sku": "COGU-043-04",
+        "color": "Nâu",
+        "size": "39",
+        "stock": 4
+      },
+      {
+        "id": 4305,
+        "sku": "COGU-043-05",
+        "color": "Nâu",
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "id": 4306,
+        "sku": "COGU-043-06",
+        "color": "Nâu",
+        "size": "41",
+        "stock": 3
+      },
+      {
+        "id": 4307,
+        "sku": "COGU-043-07",
+        "color": "Nâu",
+        "size": "42",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "giay-slip-on-canvas-xam",
+    "name_vi": "Giày slip-on canvas xám",
+    "description_vi": "Slip-on canvas xám dễ mang, đế trắng nhẹ cho ngày bận rộn.",
+    "category": "shoes",
+    "material": "Canvas cotton, đế cao su",
+    "price_vnd": 749000,
+    "image": "images/catalog-44.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Xám than",
+        "image": "images/catalog-44.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4401,
+        "sku": "COGU-044-01",
+        "color": "Xám than",
+        "size": "38",
+        "stock": 5
+      },
+      {
+        "id": 4402,
+        "sku": "COGU-044-02",
+        "color": "Xám than",
+        "size": "39",
+        "stock": 5
+      },
+      {
+        "id": 4403,
+        "sku": "COGU-044-03",
+        "color": "Xám than",
+        "size": "40",
+        "stock": 5
+      },
+      {
+        "id": 4404,
+        "sku": "COGU-044-04",
+        "color": "Xám than",
+        "size": "41",
+        "stock": 4
+      },
+      {
+        "id": 4405,
+        "sku": "COGU-044-05",
+        "color": "Xám than",
+        "size": "42",
+        "stock": 4
+      },
+      {
+        "id": 4406,
+        "sku": "COGU-044-06",
+        "color": "Xám than",
+        "size": "43",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "sandal-quai-cheo-kem",
+    "name_vi": "Sandal quai chéo màu kem",
+    "description_vi": "Sandal quai chéo vải dệt mềm, màu kem sáng và đế phẳng.",
+    "category": "shoes",
+    "material": "Vải dệt, đế cao su",
+    "price_vnd": 699000,
+    "image": "images/catalog-45.png",
+    "is_new": true,
+    "is_bestseller": false,
+    "images": [
+      {
+        "color": "Kem",
+        "image": "images/catalog-45.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": 4501,
+        "sku": "COGU-045-01",
+        "color": "Kem",
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "id": 4502,
+        "sku": "COGU-045-02",
+        "color": "Kem",
+        "size": "37",
+        "stock": 3
+      },
+      {
+        "id": 4503,
+        "sku": "COGU-045-03",
+        "color": "Kem",
+        "size": "38",
+        "stock": 3
+      },
+      {
+        "id": 4504,
+        "sku": "COGU-045-04",
+        "color": "Kem",
+        "size": "39",
+        "stock": 3
+      },
+      {
+        "id": 4505,
+        "sku": "COGU-045-05",
+        "color": "Kem",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "id": 4506,
+        "sku": "COGU-045-06",
+        "color": "Kem",
+        "size": "41",
+        "stock": 2
+      },
+      {
+        "id": 4507,
+        "sku": "COGU-045-07",
+        "color": "Kem",
+        "size": "42",
+        "stock": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#166534">
+  <title>Chi tiết sản phẩm | COGU Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/catalog.css">
+<link rel="stylesheet" href="/css/commerce.css"><link rel="stylesheet" href="/css/shopping-ai.css"></head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a><div class="announcement">COGU Fashion <span aria-hidden="true">✦</span> Chi tiết từng lựa chọn</div>
+  <header class="site-header"><div class="header-inner container">
+    <a class="brand" href="/" aria-label="COGU Fashion, về trang chủ"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a>
+    <button class="menu-toggle icon-button" id="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Mở menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Điều hướng chính"><a href="/">Trang chủ</a><a href="/shop">Cửa hàng</a><a href="/#tim-kiem">Tìm kiếm thông minh</a><a href="/#demo-lab">Demo Lab</a><a href="/studio">AI Studio</a></nav>
+    <div class="shop-account-links"><a href="/account">Tài khoản</a><a href="/cart">Giỏ hàng</a></div>
+    <a class="header-search" href="/#tim-kiem" aria-label="Tìm kiếm sản phẩm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 4.6 4.6"/></svg><span>Tìm kiếm</span></a>
+  </div></header>
+  <main id="main" class="container product-main"><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/shop">Cửa hàng</a><span aria-hidden="true">/</span><span id="crumb-name">Sản phẩm</span></nav>
+    <div id="product-state" role="status" aria-live="polite">Đang tải sản phẩm…</div>
+    <article id="product-detail" class="detail-layout" hidden>
+      <div class="gallery"><div class="gallery-stage"><img id="gallery-main" alt="" src="" fetchpriority="high"></div><div id="gallery-thumbs" class="gallery-thumbs" aria-label="Ảnh sản phẩm"></div></div>
+      <div class="detail-info"><p class="kicker" id="detail-category"></p><h1 id="detail-name"></h1><p class="detail-price" id="detail-price"></p><p class="detail-description" id="detail-description"></p><p class="detail-material"><strong>Chất liệu:</strong> <span id="detail-material"></span></p>
+        <fieldset class="option-field"><legend>Màu sắc: <strong id="selected-color"></strong></legend><div id="color-options" class="option-buttons"></div></fieldset>
+        <fieldset class="option-field"><legend>Kích cỡ: <strong id="selected-size"></strong></legend><div id="size-options" class="option-buttons"></div></fieldset>
+        <details class="size-guide"><summary>Hướng dẫn chọn kích cỡ</summary><div id="size-guide-content"></div></details>
+        <div class="stock-panel" id="stock-panel" role="status" aria-live="polite">Chọn màu và kích cỡ để xem tồn kho.</div>
+        <div class="purchase-actions"><button id="add-to-cart" class="button button-green" type="button" disabled>Thêm vào giỏ hàng</button><button id="wish-product" class="button button-outline" type="button">♡ Yêu thích</button><a class="button button-outline" href="/cart">Xem giỏ hàng</a></div><p id="purchase-status" class="commerce-status" role="status" aria-live="polite"></p><p class="demo-disclaimer">Giá và tồn kho là dữ liệu minh họa. Đơn COD được lưu trong bản demo; tiền chưa được thu trực tuyến.</p>
+      </div>
+    </article>
+    <section class="related-section" id="related-section" hidden><div class="section-heading"><div><p class="kicker">BẠN CÓ THỂ THÍCH</p><h2>Sản phẩm <em>liên quan</em></h2></div><a class="inline-link" href="/shop">Xem cửa hàng ↗</a></div><div class="product-grid" id="related-grid"></div></section>
+    <section class="related-section" id="reviews-section"><div class="section-heading"><div><p class="kicker">COGU / COMMUNITY</p><h2>Đánh giá <em>đã xác thực</em></h2><p class="section-subtitle">Chỉ từ khách có đơn COD hoàn tất; bài viết được kiểm duyệt trước khi hiển thị.</p></div></div><div id="product-reviews"></div><div class="commerce-card" id="review-form-wrap" hidden><h3>Viết đánh giá của bạn</h3><form class="commerce-form" id="review-form"><label>Số sao<select name="rating" required><option value="5">5 sao</option><option value="4">4 sao</option><option value="3">3 sao</option><option value="2">2 sao</option><option value="1">1 sao</option></select></label><label>Nội dung<textarea name="comment" required minlength="10" maxlength="1000"></textarea></label><button class="button button-green" type="submit">Gửi đánh giá</button></form><p id="review-status" class="commerce-status" role="status" aria-live="polite"></p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a><p>Khám phá món đồ hợp gu theo cách của bạn.</p></div><div><h3>Khám phá</h3><a href="/">Trang chủ</a><a href="/shop">Cửa hàng</a></div><div><h3>Trải nghiệm</h3><a href="/account">Tài khoản</a><a href="/cart">Giỏ hàng</a></div><div><h3>Về bản demo</h3><p>Giá và tồn kho là dữ liệu minh họa. Đơn COD được lưu trong hệ thống; tiền chưa được thu trực tuyến.</p></div></div><div class="container footer-bottom"><span>© 2026 COGU Fashion</span><span>Kiến trúc Python ba lớp</span></div></footer>
+  <script src="/js/catalog-shared.js" defer></script><script src="/js/commerce.js" defer></script><script src="/js/product.js" defer></script>
+<script src="/js/shopping-ai.js" defer></script></body></html>

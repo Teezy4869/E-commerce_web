@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#166534">
+  <meta name="description" content="COGU AI Studio: chọn áo, quần và giày từ catalogue thật để xem ảnh phối đồ mô phỏng hoặc ảnh mẫu minh họa.">
+  <title>AI Studio | COGU Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/commerce.css"><link rel="stylesheet" href="/css/shopping-ai.css"><link rel="stylesheet" href="/css/studio.css"><link rel="stylesheet" href="/css/studio-gender.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <div class="announcement">COGU Fashion ✦ Phòng thử phong cách bằng AI</div>
+  <header class="site-header"><div class="header-inner container">
+    <a class="brand" href="/" aria-label="COGU Fashion, về trang chủ"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a>
+    <button class="menu-toggle icon-button" id="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Mở menu">☰</button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Điều hướng chính"><a href="/">Trang chủ</a><a href="/shop">Cửa hàng</a><a href="/studio" aria-current="page">AI Studio</a><a href="/account">Tài khoản</a></nav>
+    <div class="shop-account-links"><a href="/cart">Giỏ hàng</a></div>
+  </div></header>
+  <main id="main">
+    <section class="studio-hero"><div class="container studio-hero-inner"><div><p class="kicker">COGU / AI STUDIO</p><h1>Nhìn trước <em>phong cách.</em><br>Chọn thật <em>tự tin.</em></h1><p>Chọn tối đa một áo, một quần và một đôi giày từ catalogue COGU. Xem hình ảnh mô phỏng trên dáng người bạn chọn.</p><a class="text-link" href="#studio-builder">Bắt đầu phối đồ <span aria-hidden="true">↘</span></a></div><div class="studio-hero-art"><img src="/images/outfit-sample-regular.png" alt="Ảnh mẫu minh họa một bộ trang phục trung tính; không phải sản phẩm đã chọn" fetchpriority="high"><span>ẢNH MẪU · KHÔNG THEO LỰA CHỌN</span></div></div></section>
+    <section class="container studio-builder" id="studio-builder" aria-labelledby="builder-title"><div class="section-heading"><div><p class="kicker">01 / YOUR EDIT</p><h2 id="builder-title">Phối đồ theo <em>cách của bạn.</em></h2><p class="section-subtitle">Sản phẩm và tình trạng còn hàng được lấy từ catalogue hiện tại. Không cần tải ảnh cá nhân.</p></div></div>
+      <div class="studio-layout"><div class="studio-controls"><form id="studio-form">
+        <fieldset class="studio-products"><legend class="sr-only">Chọn sản phẩm</legend>
+          <div class="studio-product-pick" data-category="shirt"><div class="studio-pick-head"><span>01</span><label for="studio-shirt">Áo</label><small>Tối đa một</small></div><select id="studio-shirt" name="shirt"><option value="">Không chọn áo</option></select><div class="studio-pick-detail" id="studio-shirt-detail"><p>Chọn một chiếc áo từ COGU.</p></div></div>
+          <div class="studio-product-pick" data-category="trousers"><div class="studio-pick-head"><span>02</span><label for="studio-trousers">Quần</label><small>Tối đa một</small></div><select id="studio-trousers" name="trousers"><option value="">Không chọn quần</option></select><div class="studio-pick-detail" id="studio-trousers-detail"><p>Chọn một chiếc quần từ COGU.</p></div></div>
+          <div class="studio-product-pick" data-category="shoes"><div class="studio-pick-head"><span>03</span><label for="studio-shoes">Giày/dép</label><small>Tối đa một</small></div><select id="studio-shoes" name="shoes"><option value="">Không chọn giày/dép</option></select><div class="studio-pick-detail" id="studio-shoes-detail"><p>Chọn một đôi giày/dép từ COGU.</p></div></div>
+        </fieldset>
+        <fieldset class="studio-body-types studio-genders"><legend>04 / Chọn giới tính người mẫu</legend><p>Lựa chọn này chỉ dùng cho ảnh mô phỏng, không lưu vào tài khoản của bạn.</p><div class="studio-body-grid">
+          <label><input type="radio" name="gender" value="male" checked><span>Nam</span></label>
+          <label><input type="radio" name="gender" value="female"><span>Nữ</span></label>
+        </div></fieldset>
+        <fieldset class="studio-body-types"><legend>05 / Chọn dáng người</legend><p>Năm dáng người dựng sẵn; đây không phải phép đo cơ thể của bạn.</p><div class="studio-body-grid">
+          <label><input type="radio" name="body_type" value="slim"><span>Slim<small>Thanh mảnh</small></span></label>
+          <label><input type="radio" name="body_type" value="regular" checked><span>Regular<small>Cân đối</small></span></label>
+          <label><input type="radio" name="body_type" value="curvy"><span>Curvy / Plus-size<small>Đầy đặn</small></span></label>
+          <label><input type="radio" name="body_type" value="tall"><span>Tall<small>Cao</small></span></label>
+          <label><input type="radio" name="body_type" value="petite"><span>Petite<small>Nhỏ nhắn</small></span></label>
+        </div></fieldset>
+        <button class="button button-green studio-submit" id="studio-submit" type="submit" disabled>Tạo ảnh phối đồ <span aria-hidden="true">✦</span></button>
+        <p class="studio-selection-note" id="studio-selection-note" role="status">Chọn ít nhất một sản phẩm để bắt đầu.</p>
+      </form></div>
+      <aside class="studio-output" aria-labelledby="preview-title"><div class="studio-output-head"><div><p class="kicker">02 / THE PREVIEW</p><h2 id="preview-title">Bản xem trước</h2></div><span class="studio-mode" id="studio-mode">DEMO · ẢNH MẪU</span></div>
+        <div class="studio-image-wrap" id="studio-image-wrap"><img id="studio-image" src="/images/outfit-sample-male-regular.png" alt="Ảnh mẫu minh họa người mẫu nam dáng Regular; không dùng sản phẩm đã chọn"><span class="studio-image-mark" id="studio-image-mark">ẢNH MẪU · KHÔNG THEO LỰA CHỌN</span></div>
+        <div class="studio-progress" id="studio-progress" hidden role="status" aria-live="polite"><span class="studio-spinner" aria-hidden="true"></span><div><strong>Đang chuẩn bị ảnh…</strong><p id="studio-progress-text">Đang kiểm tra sản phẩm trong catalogue.</p></div></div>
+        <p class="studio-status" id="studio-status" role="status" aria-live="polite">Chọn sản phẩm rồi nhấn “Tạo ảnh phối đồ”. Ảnh đang hiển thị chỉ là mẫu minh họa.</p>
+        <div class="studio-selected" id="studio-selected"></div>
+        <p class="studio-disclaimer" id="studio-disclaimer">Ảnh AI chỉ mô phỏng phong cách; không bảo đảm độ vừa vặn, màu sắc hay hình dáng thực tế. Hãy xem bảng cỡ và thông tin sản phẩm trước khi mua.</p>
+      </aside></div>
+    </section>
+    <section class="studio-explain"><div class="container studio-explain-grid"><div><p class="kicker">COGU / HOW IT WORKS</p><h2>Một ý tưởng.<br><em>Ba món đồ.</em></h2></div><div><strong>01 / Chọn từ sản phẩm thật</strong><p>Áo, quần và giày lấy từ catalogue, với giá VND và tồn kho hiện tại.</p></div><div><strong>02 / Xem bản mô phỏng</strong><p>Khi có dịch vụ tạo ảnh, COGU gửi ảnh tham chiếu sản phẩm. Không có dịch vụ, Studio hiển thị ảnh mẫu có nhãn DEMO.</p></div><div><strong>03 / Kiểm tra trước khi mua</strong><p>Ảnh chỉ để tham khảo phong cách. Mở trang sản phẩm để kiểm tra đúng màu, cỡ, chất liệu và tồn kho theo biến thể.</p></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">C</span><span><strong>COGU</strong><small>FASHION</small></span></a><p>Phong cách của bạn, lựa chọn của bạn.</p></div><div><h3>Khám phá</h3><a href="/shop">Cửa hàng</a><a href="/studio">AI Studio</a></div><div><h3>Hỗ trợ</h3><a href="/account">Tài khoản</a><a href="/cart">Giỏ hàng</a></div><div><h3>Về bản demo</h3><p>Ảnh mẫu và ảnh AI không bảo đảm độ vừa vặn. Đơn COD là dữ liệu nội bộ của bản trình diễn.</p></div></div><div class="container footer-bottom"><span>© 2026 COGU Fashion</span><span>Kiến trúc Python ba lớp</span></div></footer>
+  <script src="/js/catalog-shared.js" defer></script><script src="/js/studio.js" defer></script><script src="/js/shopping-ai.js" defer></script>
+</body>
+</html>
